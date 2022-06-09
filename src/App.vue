@@ -18,7 +18,7 @@ const socialLinks = [
       "</svg>",
   },
   {
-    href: "https://github.com/rygilles",
+    href: "https://github.com/rygilles/vue3-resume",
     linkExtraClasses: "bg-gray-700 text-white",
     svg:
       '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"' +
