@@ -3,5 +3,21 @@
     "fr": "In French",
     "en": "In English"
   },
-  "job_title": "Full Stack Developer - Web/Back-End/Ops"
+  "job_title": "Full Stack Developer - Web/Back-End/Ops",
+  "contact": {
+    "phone": {
+      "label": "Phone"
+    },
+    "email": {
+      "label": "Email"
+    },
+    "contract_type": {
+      "label": "Open to",
+      "value": "fixedterm/permenent contract, full-remote or hybrid"
+    },
+    "search_area": {
+      "label": "Search area",
+      "value": "(France) Nouvelle Aquitaine, Bordeaux, La Rochelle, Saintes"
+    }
+  }
 }

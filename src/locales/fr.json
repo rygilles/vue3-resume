@@ -4,5 +4,48 @@
     "en": "En Anglais"
   },
   "name": "Ryan Gilles",
-  "job_title": "Développeur Full Stack Web/Back-End/Ops"
+  "job_title": "Développeur Full Stack Web/Back-End/Ops",
+  "contact": {
+    "phone": {
+      "label": "Téléphone",
+      "value": "&#048;&#054;&#046;&#055;&#050;&#046;&#052;&#057;&#046;&#055;&#051;&#046;&#050;&#050;"
+    },
+    "email": {
+      "label": "E-mail"
+    },
+    "contract_type": {
+      "label": "Type de contrat",
+      "value": "CDD/CDI en full-remote ou hybride <span class=\"text-xs\">(Permis B)</span>"
+    },
+    "search_area": {
+      "label": "Zone de recherche",
+      "value": "Nouvelle Aquitaine, Bordeaux, La Rochelle, Saintes"
+    }
+  },
+  "skills": {
+    "backend": {
+      "label": "Compétences Dév. Serveur"
+    },
+    "devops": {
+      "label": "Compétences OPS/Orchestration"
+    },
+    "frontend": {
+      "label": "Compétences Dév. UI"
+    },
+    "database": {
+      "label": "Bases de données"
+    },
+    "monitoring": {
+      "label": "Monitoring"
+    },
+    "miscellaneous": {
+      "label": "Compétences Générales & Autres"
+    },
+    "hobbies": {
+      "label": "Loisirs",
+      "cyclo": "Cyclotourisme en autonomie",
+      "music": "Guitare / Basse (Rock/Metal) depuis plus de 15 ans",
+      "studio": "Mixage / Mastering en amateur"
+    }
+  }
 }
