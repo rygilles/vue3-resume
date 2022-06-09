@@ -11,7 +11,9 @@
     </li>
     <li class="px-2 mt-1">
       <strong class="mr-1">{{ $t('contact.email.label') }}</strong>
-      <a href="mailto:" class="block" v-html="$t('contact.email.value')"></a>
+      <a href="mailto:" class="block">
+        &#103;&#105;&#108;&#108;&#101;&#115;&#046;&#114;&#121;&#097;&#110;&#046;&#100;&#101;&#118;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+      </a>
     </li>
     <li class="px-2 mt-1">
       <strong class="mr-1">{{ $t('contact.contract_type.label') }}</strong>
