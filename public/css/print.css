@@ -1,0 +1,44 @@
+#social-links {
+  display: none;
+}
+
+#photo-wrapper {
+  display: none;
+}
+
+#main-title {
+  justify-items: center;
+  width: 100%;
+}
+
+#left-col {
+  display: block;
+  break-after: page;
+  flex-direction: column;
+}
+
+#left-col a,
+#left-col span {
+  color: #000;
+  font-size: 1rem;
+}
+
+.skill-group {
+  break-inside: avoid;
+}
+
+#introduction {
+  break-before: page;
+}
+
+#jobs {
+  break-before: page;
+}
+
+#jobs h2 {
+  margin-top: 0;
+}
+
+#education {
+  break-before: page;
+}
