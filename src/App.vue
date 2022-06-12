@@ -42,9 +42,7 @@ const socialLinks = [
 
 <template>
   <!-- outer container -->
-  <div
-    class="lg:border lg:border-gray-300 lg:shadow-lg px-2 py-2 lg:py-10 lg:px-10 mx-1 lg:my-0 w-auto lg:w-4/5 mt-0 lg:mt-10 lg:mb-10 lg:rounded-lg"
-  >
+  <div class="dark:bg-black lg:border lg:border-gray-300 lg:shadow-lg px-2 py-2 lg:py-10 lg:px-10 mx-1 lg:my-0 w-auto lg:w-4/5 mt-0 lg:mt-10 lg:mb-10 lg:rounded-lg">
     <HeaderSection
       :name="$t('name')"
       :job-title="$t('job_title')"
