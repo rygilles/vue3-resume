@@ -7,7 +7,7 @@ const flagImageUrls = {
 </script>
 
 <template>
-  <div class="flex flex-wrap gap-1 lg:gap-2">
+  <div class="flex flex-wrap gap-1 lg:gap-2 print:hidden">
     <span
       v-for="locale in $i18n.availableLocales.reverse()"
       :key="`locale-${locale}`"

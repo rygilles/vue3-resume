@@ -2,7 +2,6 @@
 import HeaderSection from "./components/HeaderSection.vue";
 import ContactSection from "./components/ContactSection.vue";
 import SkillsGroupList from "./components/SkillsGroupList.vue";
-import AboutMe from "./components/AboutMe.vue";
 import JobList from "./components/JobList.vue";
 import EducationList from "./components/EducationList.vue";
 
@@ -42,7 +41,9 @@ const socialLinks = [
 
 <template>
   <!-- outer container -->
-  <div class="dark:bg-slate-800 dark:border-gray-500 lg:border border-gray-300 lg:shadow-lg px-2 py-2 lg:py-10 lg:px-10 mx-1 lg:my-0 w-auto lg:w-4/5 mt-0 lg:mt-10 lg:mb-10 lg:rounded-lg">
+  <div
+    class="dark:bg-slate-800 dark:border-gray-500 lg:border border-gray-300 lg:shadow-lg px-2 py-2 lg:py-10 lg:px-10 mx-1 lg:my-0 w-auto lg:w-4/5 mt-0 lg:mt-10 lg:mb-10 lg:rounded-lg"
+  >
     <HeaderSection
       :name="$t('name')"
       :job-title="$t('job_title')"
@@ -60,7 +61,6 @@ const socialLinks = [
       </div>
       <!-- right col -->
       <div class="w-full lg:w-4/6">
-        <AboutMe />
         <JobList />
         <EducationList />
       </div>

@@ -4,7 +4,7 @@
     "en": "En Anglais"
   },
   "name": "Ryan Gilles",
-  "job_title": "Développeur Full Stack Web/Back-End/Ops",
+  "job_title": "DevOps & Développeur Full Stack",
   "contact": {
     "phone": {
       "label": "Téléphone",
@@ -20,7 +20,7 @@
     },
     "search_area": {
       "label": "Zone de recherche",
-      "value": "Nouvelle Aquitaine, Bordeaux, La Rochelle, Saintes"
+      "value": "Nouvelle Aquitaine, Bordeaux, La Rochelle, Saintes ou en full remote"
     }
   },
   "skills": {
@@ -46,7 +46,8 @@
       "label": "Loisirs",
       "cyclo": "Cyclotourisme en autonomie",
       "music": "Guitare / Basse (Rock/Metal) depuis plus de 15 ans",
-      "studio": "Mixage / Mastering en amateur"
+      "studio": "Mixage / Mastering en amateur",
+      "beer": "Brassage en amateur"
     }
   }
 }
