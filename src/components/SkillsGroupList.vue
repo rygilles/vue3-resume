@@ -4,19 +4,44 @@ import SkillsGroup from "./SkillsGroup.vue";
 // @todo put this into a JSON file
 const skillsGroups = [
   {
+    title: "Compétences OPS/Orchestration",
+    skills: [
+      {
+        title: "Ansible",
+        href: "https://www.ansible.com/",
+      },
+      {
+        title: "Terraform / OpenTofu",
+        href: "https://developer.hashicorp.com/terraform",
+      },
+      {
+        title: "Docker / Docker Compose",
+        href: "https://www.docker.com/",
+      },
+      {
+        title: "Kubernetes",
+        href: "https://kubernetes.io/",
+      },
+      {
+        title: "HELM",
+        href: "https://helm.sh/",
+      },
+      {
+        title: "Bash",
+        href: "https://fr.wikibooks.org/wiki/Programmation_Bash/Scripts",
+      },
+    ],
+  },
+  {
     title: "Compétences Dév. Serveur",
     skills: [
       {
-        title: "Symfony 5.4",
-        href: "https://symfony.com/",
-      },
-      {
-        title: "API Platform",
-        href: "https://api-platform.com//",
-      },
-      {
-        title: "Laravel 5",
+        title: "Laravel",
         href: "https://laravel.com/",
+      },
+      {
+        title: "Symfony",
+        href: "https://symfony.com/",
       },
       {
         title: "PHP 8",
@@ -29,19 +54,64 @@ const skillsGroups = [
     ],
   },
   {
-    title: "Compétences OPS/Orchestration",
+    title: "Bases de données",
     skills: [
       {
-        title: "Ansible",
-        href: "https://www.ansible.com/",
+        title: "MySQL",
+        href: "https://www.mysql.com/fr/",
       },
       {
-        title: "Docker / Docker Compose",
-        href: "https://www.docker.com/",
+        title: "PostgreSQL",
+        href: "https://www.postgresql.org/",
       },
       {
-        title: "Bash",
-        href: "https://fr.wikibooks.org/wiki/Programmation_Bash/Scripts",
+        title: "Elasticsearch",
+        href: "https://www.elastic.co/fr/elasticsearch/",
+      },
+      {
+        title: "InfluxDB",
+        href: "https://www.influxdata.com/",
+      },
+      {
+        title: "Redis",
+        href: "https://redis.io/",
+      },
+      {
+        title: "Memcached",
+        href: "https://fr.wikipedia.org/wiki/Memcached",
+      },
+      {
+        title: "Approche Merise & SGBDR",
+        href: "https://fr.wikipedia.org/wiki/Merise_(informatique)",
+      },
+    ],
+  },
+  {
+    title: "Monitoring & Observabilité",
+    skills: [
+      {
+        title: "Prometheus",
+        href: "https://prometheus.io/",
+      },
+      {
+        title: "Grafana",
+        href: "https://grafana.com/",
+      },
+      {
+        title: "Loki",
+        href: "https://grafana.com/oss/loki/",
+      },
+      {
+        title: "Telegraf",
+        href: "https://www.influxdata.com/time-series-platform/telegraf/",
+      },
+      {
+        title: "Kibana",
+        href: "https://www.elastic.co/fr/kibana/",
+      },
+      {
+        title: "Sentry",
+        href: "https://sentry.io",
       },
     ],
   },
@@ -87,77 +157,63 @@ const skillsGroups = [
     ],
   },
   {
-    title: "Bases de données",
-    skills: [
-      {
-        title: "MySQL",
-        href: "https://www.mysql.com/fr/",
-      },
-      {
-        title: "Elasticsearch",
-        href: "https://www.elastic.co/fr/elasticsearch/",
-      },
-      {
-        title: "InfluxDB",
-        href: "https://www.influxdata.com/",
-      },
-      {
-        title: "Redis",
-        href: "https://redis.io/",
-      },
-      {
-        title: "Memcached",
-        href: "https://fr.wikipedia.org/wiki/Memcached",
-      },
-      {
-        title: "Approche Merise & SGBDR",
-        href: "https://fr.wikipedia.org/wiki/Merise_(informatique)",
-      },
-    ],
-  },
-  {
-    title: "Monitoring",
-    skills: [
-      {
-        title: "Telegraf",
-        href: "https://www.influxdata.com/time-series-platform/telegraf/",
-      },
-      {
-        title: "Kibana",
-        href: "https://www.elastic.co/fr/kibana/",
-      },
-      {
-        title: "Grafana",
-        href: "https://grafana.com/",
-      },
-      {
-        title: "Prometheus",
-        href: "https://prometheus.io/",
-      },
-    ],
-  },
-  {
     title: "Compétences Générales & Autres",
     skills: [
       {
-        title: "Norme OpenAPI 3 / Swagger",
+        title: "HashiCorp Vault",
+        href: "https://www.hashicorp.com/en/products/vault",
+      },
+      {
+        title: "Object Storage / S3",
+        href: "#",
+      },
+      {
+        title: "Scaleway Cloud",
+        href: "https://www.scaleway.com/fr/",
+      },
+      {
+        title: "OpenAPI 3 / Swagger",
         href: "https://www.openapis.org/",
       },
       {
-        title: "Approche Test Driven Development",
-        href: "https://fr.wikipedia.org/wiki/Test_driven_development",
-      },
-      {
-        title: "CI/CD GitHub Actions",
+        title: "GitHub CI/CD Actions",
         href: "https://github.com/features/actions",
       },
       {
-        title: "Tests E2E avec Panther / WebDriver",
-        href: "https://github.com/symfony/panther",
+        title: "GitLab CI/CD Pipelines",
+        href: "https://about.gitlab.com/topics/ci-cd/cicd-pipeline/",
+      },
+      {
+        title: "Traefik",
+        href: "https://traefik.io/traefik",
+      },
+      {
+        title: "Nginx",
+        href: "https://nginx.org/",
+      },
+      {
+        title: "Apache",
+        href: "https://httpd.apache.org/",
+      },
+      {
+        title: "HAProxy",
+        href: "https://httpd.apache.org/",
+      },
+      {
+        title: "Laravel Forge",
+        href: "https://forge.laravel.com/",
+      },
+      {
+        title: "E2E Testing",
+        href: "#",
       },
       {
         title: "WebSocket",
         href: "https://fr.wikipedia.org/wiki/WebSocket",
+      },
+      {
+        title: "Mercure",
+        href: "https://mercure.rocks/",
       },
       {
         title: "JSON Schema",
@@ -174,6 +230,10 @@ const skillsGroups = [
       {
         title: "AGILE",
         href: "https://fr.wikipedia.org/wiki/M%C3%A9thode_agile",
+      },
+      {
+        title: "Test Driven Development",
+        href: "https://fr.wikipedia.org/wiki/Test_driven_development",
       },
       {
         title: "Adobe Photoshop",
@@ -197,6 +257,10 @@ const skillsGroups = [
       },
       {
         title: "Mixage / Mastering en amateur",
+        href: "#",
+      },
+      {
+        title: "Brassage amateur",
         href: "#",
       },
     ],

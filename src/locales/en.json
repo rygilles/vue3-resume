@@ -3,7 +3,7 @@
     "fr": "In French",
     "en": "In English"
   },
-  "job_title": "Full Stack Developer - Web/Back-End/Ops",
+  "job_title": "DevSecOps & Full Stack Developer",
   "contact": {
     "phone": {
       "label": "Phone"
@@ -17,7 +17,7 @@
     },
     "search_area": {
       "label": "Search area",
-      "value": "(France) Nouvelle Aquitaine, Bordeaux, La Rochelle, Saintes"
+      "value": "(France) Nouvelle Aquitaine, Bordeaux, La Rochelle, Saintes, fulle remote!"
     }
   }
 }

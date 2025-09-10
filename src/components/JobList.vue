@@ -4,10 +4,66 @@ import JobItem from "./JobItem.vue";
 // @todo put this into a JSON file
 const jobs = [
   {
+    company: "Web^ID",
+    jobTitle: "DevOps Senior<small>Lyon (remote)</small>",
+    imageUrl: "./images/web-id.jpg",
+    when: "Depuis fin 2022",
+    description:
+      "Administration et automatisation d'infrastructures via Terraform et Ansible.<br />" +
+      "Gestion de clusters Kubernetes pour la scalabilité d'applications.<br />" +
+      "Conception et maintenance des pipelines CI/CD (GitHub/GitLab).<br />" +
+      "Suivi de la sécurité (SecOps) d'un parc de serveurs avec Greenbone & Prometheus Alertmanager.<br />" +
+      "Maintenance d'outils self-hosted (GitLab, Sentry, ...).<br />" +
+      "Mise en place d'environnements de développement containerisés avec Docker.<br />" +
+      "Développement en PHP/Laravel.",
+    tags: [
+      {
+        title: "IaC",
+        extraClasses: "hidden lg:inline-block",
+      },
+      {
+        title: "Terraform",
+        extraClasses: "hidden xl:inline-block",
+      },
+      {
+        title: "Ansible",
+        extraClasses: "hidden xl:inline-block",
+      },
+      {
+        title: "Kubernetes",
+        extraClasses: "hidden xl:inline-block",
+      },
+      {
+        title: "Docker",
+        extraClasses: "hidden 2xl:inline-block",
+      },
+      {
+        title: "CI/CD",
+        extraClasses: "hidden 2xl:inline-block",
+      },
+      {
+        title: "Laravel",
+        extraClasses: "hidden lg:inline-block",
+      },
+      {
+        title: "DevSecOps",
+        extraClasses: "hidden lg:inline-block",
+      },
+      {
+        title: "SysAdmin",
+        extraClasses: "hidden 3xl:inline-block",
+      },
+      {
+        title: "Monitoring",
+        extraClasses: "hidden 3xl:inline-block",
+      },
+    ],
+  },
+  {
     company: "E-monsite",
     jobTitle: "Développeur Web/Back-End/Ops<small>Amiens (80)</small>",
     imageUrl: "./images/e-monsite.jpg",
-    when: "Depuis 2013",
+    when: "2013 - 2022",
     description:
       "Framework Symfony en PHP 8 sur le projet de CMS propriétaire.<br />" +
       "(MySql, Memcache, Node/WebPack pour le JS, HaProxy, Cloudflare, monitoring" +
