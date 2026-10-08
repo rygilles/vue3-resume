@@ -7,6 +7,8 @@ import EducationList from "./components/EducationList.vue";
 
 const photoUrl = "./images/photo-ryan-gilles.png";
 
+const openToWork = true;
+
 const socialLinks = [
   {
     href: "https://www.linkedin.com/in/ryan-gilles-293680174/",
@@ -48,6 +50,7 @@ const socialLinks = [
       :name="$t('name')"
       :job-title="$t('job_title')"
       :image-url="photoUrl"
+      :open-to-work="openToWork"
       :social-links="socialLinks"
     />
     <main

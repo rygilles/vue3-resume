@@ -5,6 +5,7 @@ defineProps({
   name: String,
   jobTitle: String,
   imageUrl: String,
+  openToWork: Boolean,
   // @todo TypeScript object typing
   /*eslint @typescript-eslint/no-explicit-any: ["off"]*/
   socialLinks: Array<any>,
@@ -41,8 +42,14 @@ defineProps({
       </ul>
     </div>
     <div class="flex justify-between items-center gap-0 lg:gap-x-10 mb-2">
-      <div id="photo-wrapper">
-        <img class="w-5/6 lg:w-4/6 object-contain" :src="imageUrl" />
+      <div id="photo-wrapper" class="relative w-40 lg:w-60 object-contain">
+        <img class="w-full object-contain rounded-lg" :src="imageUrl" />
+        <div id="open-to-work"
+             class="absolute bottom-3 left-3 bg-green-600 text-white text-xs lg:text-sm font-bold px-3 py-1.5 rounded-md shadow-lg border border-green-500 uppercase tracking-wider whitespace-nowrap animate-pulse"
+             v-if="openToWork"
+        >
+          Open To Work
+        </div>
       </div>
       <div id="main-title" class="grid justify-items-end">
         <h1 class="text-5xl lg:text-7xl font-extrabold">{{ name }}</h1>
