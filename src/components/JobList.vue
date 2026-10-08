@@ -7,7 +7,7 @@ const jobs = [
     company: "Web^ID",
     jobTitle: "DevOps Senior<small>Lyon (remote)</small>",
     imageUrl: "./images/web-id.jpg",
-    when: "Depuis fin 2022",
+    when: "2022 - 2026",
     description:
       "Administration et automatisation d'infrastructures via Terraform et Ansible.<br />" +
       "Gestion de clusters Kubernetes pour la scalabilité d'applications.<br />" +
