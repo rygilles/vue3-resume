@@ -4,7 +4,8 @@
     "en": "En Anglais"
   },
   "name": "Ryan Gilles",
-  "job_title": "DevOps & Développeur Full Stack",
+  "job_title": "DevOps Senior & Développeur Full Stack",
+  "catch_phrase": "Fort d'une longue expérience dans le développement Web Back-End (PHP, Laravel, Symfony), j’ai évolué naturellement vers le <b>DevOps</b>. Aujourd’hui focalisé sur les technologies de pointe comme <b>Docker</b> et <b>Kubernetes</b>, je mets cette double culture au service de la fluidité des déploiements, de l'optimisation des performances et de la sécurité des infrastructures.",
   "contact": {
     "phone": {
       "label": "Téléphone",

@@ -90,10 +90,6 @@ const jobs = [
         extraClasses: "hidden xl:inline-block",
       },
       {
-        title: "TDD",
-        extraClasses: "hidden 2xl:inline-block",
-      },
-      {
         title: "Monitoring",
         extraClasses: "hidden 2xl:inline-block",
       },
@@ -196,7 +192,7 @@ const jobs = [
 <template>
   <section id="jobs">
     <!-- work experiences -->
-    <h2 class="text-2xl mt-6 pb-1 border-b font-semibold">Expérience</h2>
+    <h2 class="text-2xl pb-1 border-b font-semibold">Expérience</h2>
     <ul class="mt-2">
       <JobItem
         v-for="(job, jobIndex) in jobs"

@@ -4,6 +4,7 @@ import LocaleChanger from './LocaleChanger.vue'
 defineProps({
   name: String,
   jobTitle: String,
+  catchPhrase: String,
   imageUrl: String,
   openToWork: Boolean,
   // @todo TypeScript object typing
@@ -54,6 +55,7 @@ defineProps({
       <div id="main-title" class="grid justify-items-end">
         <h1 class="text-5xl lg:text-7xl font-extrabold">{{ name }}</h1>
         <h2 class="text-base lg:text-xl mt-5">{{ jobTitle }}</h2>
+        <p class="text-l max-w-3xl lg:max-w-4xl mt-5 ml-10 font-serif leading-[1.3] tracking-[-0.01em] italic" v-html="catchPhrase"></p>
       </div>
     </div>
   </header>

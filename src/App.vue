@@ -49,6 +49,7 @@ const socialLinks = [
     <HeaderSection
       :name="$t('name')"
       :job-title="$t('job_title')"
+      :catch-phrase="$t('catch_phrase')"
       :image-url="photoUrl"
       :open-to-work="openToWork"
       :social-links="socialLinks"
